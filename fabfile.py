@@ -8,4 +8,3 @@ def prepare_deploy():
     local("cd /home/hello-world")
     local("git add * && git commit -m %s" % s)
     local("git push")
-    local("wx385656!!")
